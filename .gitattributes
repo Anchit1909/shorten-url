@@ -1,2 +1,6 @@
-*.ts linguist-detectable=false
-*.tsx linguist-detectable=false
+# Reduce the impact of TypeScript files on the language statistics
+*.ts linguist-weight=1
+*.tsx linguist-weight=1
+
+# Increase the impact of Go files on the language statistics
+*.go linguist-weight=10
